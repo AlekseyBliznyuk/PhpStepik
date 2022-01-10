@@ -1,6 +1,7 @@
 /* ООП. Классы и объекты
 Задание: Создайте класс Student и метод printData(), который печатает его свойства name и age
 */
+<?php
 class Student {
     public $name;
     public $age;
@@ -9,3 +10,4 @@ class Student {
         echo $this->age;
     }
 }
+?>
